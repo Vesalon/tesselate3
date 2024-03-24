@@ -5,7 +5,14 @@
     <style>
         body {padding: 0; margin: 0;overflow: hidden;}
     </style>
-    <script src="math.js"></script>
+    <!-- <script src="math.js"></script> -->
+    <script type="importmap">
+      {
+        "imports": {
+          "math": "https://unpkg.com/mathjs@12.4.1/lib/browser/math.js"
+        }
+      }
+    </script>
     <script src="sketch.js"></script>
   </head>
   <body>
